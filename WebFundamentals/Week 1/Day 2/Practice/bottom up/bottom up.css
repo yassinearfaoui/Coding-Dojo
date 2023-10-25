@@ -1,0 +1,21 @@
+.search{
+    background-color: white;
+    color: blue;
+    border-radius: 50px;
+    border: 1px solid;
+    text-align: center;
+    width: 100px;
+}
+.value{
+    background-color: aqua;
+    color: white;
+    border: 1px solid;
+    border-radius: 50px;
+}
+.account{
+background-color: blue;
+color: white;
+box-shadow: 5px 2px 2px black;
+border-color:black ;
+border: 1px;
+}
