@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.btn{
+    background-color: aqua;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    box-shadow: #333;
+
+}
+.nav-links a.active {
+    background-color: #555;
+    border-radius: 5px;
+}
+
