@@ -1,8 +1,10 @@
 .container{
-    height: 350px;
+    height: 1170px;
     width: 1000px;
     background-color: aqua;
     display: inline-block;
+    border: 3px black solid;
+    padding: 0px 30px 0px 30px;
 
 }
 .pic1 img{
@@ -31,4 +33,17 @@ body{
     width: 1000px;
     background-color: pink;
     display: inline-block;
+}
+.pic3 img{
+    height: 250px;
+    width: 250px;
+    margin: 40px;
+}
+.pic1{
+    background-color: deepskyblue;
+    margin-bottom: 30px;
+}
+.pic3{
+    background-color: white;
+    margin-top: 30px;
 }
