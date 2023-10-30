@@ -5,5 +5,5 @@ function disapear(element){
     element.remove();
 }
 function like(element){
-    alert("ninja was liked")
+    alert("ninja was liked");
 }
