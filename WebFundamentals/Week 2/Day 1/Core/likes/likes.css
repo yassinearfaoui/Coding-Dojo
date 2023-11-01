@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.maincon{
+    margin-left: 500px;
+    margin-top: 40px;
+    justify-content: center;
+    width: 400px;
+    padding: 10px;
+    border: 3px black solid;
+}
+.user{
+    display: flex;
+    margin: 20px;
+    gap: 40px;
+    align-items: center;
+}
+button{
+    background-color: yellow;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 3px  rgb(182, 94, 94);
+}
+.this{
+    margin: 20px;
+}

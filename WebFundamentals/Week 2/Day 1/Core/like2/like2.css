@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 600px;
+    margin: 0 auto;
+}
+.net {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 600px;
+    justify-content: start;
+    padding: 5px;
+}
+.feed{
+    display: flex;
+    justify-content: center;
+    width: 820px;
+    padding: 5px;
+}
+.main{
+    display: flex;
+
+}
+.leftnav{
+    width: 150px;
+    border: 3px black solid;
+    height: 230px;
+    padding: 10px;
+}
+.leftnav img{
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: 40px;
+}
+.link{
+    margin: 35px 20px;
+}
+.neil{
+    height: 115px;
+    width: 350px;
+    border: 3px black solid;
+    padding: 10px;
+    margin: 0px 0px 10px 50px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+}
+.top button{
+    background-color: rgb(171, 224, 65);
+    padding: 5px 10px;
+    box-shadow: 3px 3px 3px;
+}
