@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    background-color: #9fc5f8;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+.select{
+    display: flex;
+}
+.row{
+    display: flex;
+    gap: 50px;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+.top2{
+display: flex;
+justify-content: space-between;
+border-bottom: 3px black solid;
+padding: 5px;
+align-items: center;
+}
+#today{
+    margin-left: 25px;
+}
+.weather{
+    background-color: rgb(243, 238, 238);
+    width: 200px;
+    height: 380px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.weather img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 50px 5px;
+}
+.weather h2{
+    margin-left: 15px;
+}
+.weather > h1{
+    align-items: center;
+}
+.temp{
+display: flex;
+margin:50px 20px 0px 0px;
+gap: 50px;
+}
+#red{
+    color: red;
+}
+.temp h1{
+    color: blue;
+}
+.days{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.buttom{
+    background-color: #EEEEEE;
+    display: flex;
+    border: 3px black solid;
+    justify-content: space-between;
+    gap: 40px;
+    height: 120px;
+    align-items: center;
+    margin-top: 20px;
+}
+.buttom button{
+    border: 2px black solid;
+    background-color: aquamarine;
+    padding: 5px;
+    box-shadow: 3px 3px 3px;
+    width: 80px;
+    margin: 20px;
+}
