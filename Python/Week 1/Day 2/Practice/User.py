@@ -31,6 +31,7 @@ class User:
 
     def enroll(self):
 
+
         # NINJA BONUS
         # Add logic in the enroll method to check if 
         # they are a member already, and if they are, 
@@ -49,7 +50,6 @@ class User:
     
     
     def spend_points(self, amount):
-
         # Add logic in the spend points method
         # to be sure they have enough points to 
         # spend that amount and handle appropriately.
@@ -60,7 +60,8 @@ class User:
             # then return # exit function!
 
         # decrease the user's points by the amount specified.
-        self.gold_card_points
+        self.gold_card_points = amount
+
         # .... this line is incomplete .. how do set this to a new value?
 
     
