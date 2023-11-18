@@ -10,14 +10,20 @@ class Ninja:
 
     def walk(self):
         self.pet.play()
-        
+        return self.pet.play()
+    
 
     def feed(self):
-        
         self.pet.eat()
+        return self.pet.eat()
 
     def bathe(self):
         self.pet.noise()
+        return self.pet.noise()
         
 
 Ninja1 = Ninja("jhon","doe",10,5, Pet("fluffy","dog",["sit","roll over"]))
+
+print(Ninja1.bathe())
+print(Ninja1.feed())
+print(Ninja1.walk())

@@ -9,26 +9,38 @@ class Pet:
 
     def sleep(self):
         self.energy += 25
+        return self.energy
+
 
 
     def eat(self):
         self.energy+=5   
         self.health+=10
+        return self.health
 
     def play(self):
         self.health+=5
+        return self.health
 
     def noise(self):
-        if(self.pet_type == "dog"):
-            print("woof !")
-        elif(self.pet_type == "cat"):    
-            print("MEOWWWW !")  
+        if(self.type == "dog"):
+            
+            return ("woof !")
+        elif(self.type == "cat"):    
+            return ("MEOWWWW !")  
         else:
-            print("waywaaa !")
+            return ("waywaaa !")
+            
 
 
 
-pet = Pet("fluffy","dog",["sit , roll over"])
+pet1 = Pet("fluffy","dog",["sit , roll over"])
+
+# print(pet1.sleep())
+# print(pet1.noise())
+print(pet1.eat())
+# print(pet1.play())
+# print(pet1.tricks)
 
 
 
