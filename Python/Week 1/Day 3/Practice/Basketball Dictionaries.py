@@ -65,13 +65,4 @@ kevin=Player( {
     })
 kevin.display()
 
-
-
-# jason=Player("Jason Tatum","24","small forward","Boston Celtics")
-# print(jason)
-
-# kyrie=Player("Kyrie Irving","32","Point Guard","Brooklyn Nets")
-# print(kyrie)
-    
-
-# print()   
+  
