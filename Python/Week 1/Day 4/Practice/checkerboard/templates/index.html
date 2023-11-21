@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">>
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>*** checkerboard ***</h1>
+    </div>
+    <div>
+        <table>
+        {%for i in range(x)%}
+            <tr>
+                {%for j in range (y)%}
+                <td class="color{{ (i+j)%2+1  }}">
+                </td>
+                {% endfor %}
+            </tr>
+        {%  endfor %}
+        </table>
+    </div>
+</body>
+
+</html>
