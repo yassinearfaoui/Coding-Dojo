@@ -1,0 +1,39 @@
+SELECT * FROM dojos;
+
+INSERT INTO dojos (name) 
+VALUES ("yassine dojo"),
+       ("ahmed dojo"),
+       ("hamza dojo");
+DELETE FROM dojos WHERE id=7;
+DELETE FROM dojos WHERE id=8;
+DELETE FROM dojos WHERE id=9;
+        
+INSERT INTO dojos (name) 
+VALUES ("yassine dojo"),
+       ("ahmed dojo"),
+       ("hamza dojo");      
+
+INSERT INTO ninjas (first_name, last_name,age,dojos_id) 
+VALUES(" hmed", "satour" ,25,10 ),
+(" zaaama", "zaaama" ,22,10 ),
+(" natar", "wnatar" ,34,10 );
+
+SELECT * FROM ninjas ;
+
+INSERT INTO ninjas (first_name, last_name,age,dojos_id) 
+VALUES(" hmed", "satour" ,25,11 ),
+(" zaaama", "zaaama" ,22,11 ),
+(" natar", "wnatar" ,34,11 );
+
+INSERT INTO ninjas (first_name, last_name,age,dojos_id) 
+VALUES(" hmed", "satour" ,25,12 ),
+(" zaaama", "zaaama" ,22,12 ),
+(" natar", "wnatar" ,34,12 );
+
+SELECT * FROM ninjas WHERE dojos_id =10;
+SELECT * FROM ninjas WHERE dojos_id =11;
+SELECT * FROM ninjas WHERE dojos_id =12;
+
+SELECT * FROM dojos
+    JOIN ninjas ON dojos.id = ninjas.dojos_id;
+
