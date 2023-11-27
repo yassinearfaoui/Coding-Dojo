@@ -43,9 +43,11 @@ def update():
         "Last_name": request.form["Last_name"],
         "Email": request.form["Email"],
     }
-    print(data)
+    id = data["id"]
+
     User.update(data)
-    return redirect("/")
+    
+    return redirect(f"/user/{id}")
 
 @app.route("/user/<int:id>/destroy")
 def destroy(id):
