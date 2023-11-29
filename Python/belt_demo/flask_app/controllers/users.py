@@ -5,9 +5,18 @@ from flask_bcrypt import Bcrypt
 
 bcrypt = Bcrypt(app)
 
+
 @app.route('/')
 def home():
     return render_template("index.html")
+
+
+@app.route('/dashboard')
+def dashboard():
+    if not 'user id' in session:
+        return redirect("/")
+    return render_template ("dashboard.html")
+
 
 @app.route('/register', methods=['post'])
 def register():
@@ -15,8 +24,9 @@ def register():
         pw_hash = bcrypt.generate_password_hash(request.form['password'])
         data = {**request.form, "password" : pw_hash}
         user_id = User.create(data)
+        print(user_id)
         session["user_id"] = user_id
-        return redirect("/dashbord")
+        return redirect("/dashboard")
     return redirect("/")
 @app.route('/login', methods=['post'])
 def login():
