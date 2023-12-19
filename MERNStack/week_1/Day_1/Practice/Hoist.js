@@ -1,6 +1,9 @@
 console.log(hello);                                   
-var hello = 'world';                                 
-// logs : undefined
+var hello = 'world'; 
+// var hello
+// console.log(hello);  logs : undefined
+// hello = 'world'; 
+
 
 var needle = 'haystack';
 test();
@@ -8,7 +11,15 @@ function test(){
     var needle = 'magnet';
     console.log(needle);
 }
-//  logs : magnet
+// var needle
+// function test()
+// var needle = 'haystack';
+// test()
+// function test(){
+//         var needle = 'magnet';
+//         console.log(needle): logs : magnet;
+//    }
+
 
 
 var brendan = 'super cool';
@@ -17,7 +28,10 @@ function print(){
     console.log(brendan);
 }
 console.log(brendan);
-// logs : super cool
+// var brendan
+// function print()
+// var brendan = 'super cool';
+// console.log(brendan); logs : super cool
 
 var food = 'chicken';
 console.log(food);
@@ -27,7 +41,16 @@ function eat(){
     console.log(food);
     var food = 'gone';
 }
-// logs : chicken  , half-chicken
+// var food 
+// function eat()
+// var food = 'chicken';
+// console.log(food) => logs : chicken 
+// eat();
+// function eat(){
+//         food = 'half-chicken';
+//         console.log(food);  logs :  half-chicken
+//         var food = 'gone';
+//     }
 
 mean();
 console.log(food);
@@ -38,7 +61,8 @@ var mean = function() {
     console.log(food);
 }
 console.log(food);
-// logs : mean is not a function 
+// var mean : logs : mean is not a function  and stop
+
 
 
 console.log(genre);
@@ -51,7 +75,18 @@ function rewind() {
     console.log(genre);
 }
 console.log(genre);
-// logs : undefined , rock , r&b , disco
+// var genre 
+// function rewind()
+// console.log(genre); logs : undefined 
+// var genre = "disco";
+// rewind();
+// function rewind() {
+//         genre = "rock";
+//         console.log(genre);  logs :rock
+//         var genre = "r&b";
+//         console.log(genre); logs : r&b
+//     }
+// console.log(genre); logs : disco 
 
 
 dojo = "san jose";
@@ -64,7 +99,17 @@ function learn() {
     console.log(dojo);
 }
 console.log(dojo);
-// logs : san jose , seattle , burbank , san jose
+// function learn()
+// dojo = "san jose";
+//console.log(dojo);  logs : san jose 
+// learn();
+// function learn() {
+//         dojo = "seattle";
+//         console.log(dojo); logs : seatle 
+//         var dojo = "burbank";
+//         console.log(dojo); logs burbank
+//     }
+// console.log(dojo); logs : san jose 
 
 console.log(makeDojo("Chicago", 65));
 console.log(makeDojo("Berkeley", 0));
@@ -80,7 +125,34 @@ function makeDojo(name, students){
     }
     return dojo;
 }
+// function makeDojo(name, students)
+// console.log(makeDojo("Chicago", 65));
+// function makeDojo(name, students){
+//         const dojo = {};
+//         dojo.name = name;
+//         dojo.students = students;
+//         if(dojo.students > 50){
+//             dojo.hiring = true;
+//         }
+//         else if(dojo.students <= 0){
+//             dojo.hiring = "closed for now";
+//         }
+//         return dojo;
+//     }
 // logs : { name: 'Chicago', students: 65,' hiring: true }
+// console.log(makeDojo("Berkeley", 0));
+// function makeDojo(name, students){
+//         const dojo = {};
+//         dojo.name = name;
+//         dojo.students = students;
+//         if(dojo.students > 50){
+//             dojo.hiring = true;
+//         }
+//         else if(dojo.students <= 0){
+//             dojo.hiring = "closed for now";
+//         }
+//         return dojo;
+//     }
 //        { name: 'Berkeley', students: 0, hiring: 'closed for now' }
 
 
