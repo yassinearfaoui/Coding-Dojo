@@ -10,7 +10,7 @@ const FormComponent = () => {
     const diplay =[fname , lname , email , password , cpassword]
 return (
     <fieldset>
-        <legend><h3></h3>Form</legend>
+        <legend><h3>Form</h3></legend>
         <form>
         <p>
             <label htmlFor="">First Name : </label>
