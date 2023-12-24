@@ -4,7 +4,7 @@ const PersonComponent = (props) => {
   const {user} = props
   const [age , setAge] = useState(user.age)
   const increaseAge = () =>{
-   setAge(age+1)
+  setAge(age+1)
   }
   return (
     <fieldset>
