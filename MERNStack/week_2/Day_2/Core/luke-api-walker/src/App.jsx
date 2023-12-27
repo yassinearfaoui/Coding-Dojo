@@ -5,6 +5,7 @@ import Planet from './components/Planet'
 import Error from './components/Error'
 import Form from './components/Form'
 import People from './components/People'
+import Home from './components/Home '
 // import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <div className='container '>
         <Form/>
         <Routes >
+        <Route path='/' element = {<Home/>} />
           <Route path='/people/:id' element={<Planet/>} />
           <Route path='/planet/:id' element={<People/>} />
           <Route path='/Error' element={<Error/>} />

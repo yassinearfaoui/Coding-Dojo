@@ -24,9 +24,9 @@ const People = () => {
             <h3>People</h3>
             <h1>{planet.name}</h1>
             <ul>
-                <li>Height : {planet.terrain}</li>
-                <li>Mass : {planet.surface_water}</li>
-                <li>Hair Color : {planet.population}</li>
+                <li>terrain : {planet.terrain}</li>
+                <li>surface_water : {planet.surface_water}</li>
+                <li>population : {planet.population}</li>
             </ul>
         </div>
         : <h2> ... loading</h2>}
