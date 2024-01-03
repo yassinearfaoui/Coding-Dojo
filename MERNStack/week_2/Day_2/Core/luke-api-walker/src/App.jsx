@@ -1,5 +1,5 @@
 import {
-  Routes, Route, Link
+  Routes, Route
 } from 'react-router-dom'
 import Planet from './components/Planet'
 import Error from './components/Error'
