@@ -1,0 +1,15 @@
+C:\Users\LENOVO\Desktop\fundamentals1\bin\Debug\net6.0\fundamentals1.exe
+C:\Users\LENOVO\Desktop\fundamentals1\bin\Debug\net6.0\fundamentals1.deps.json
+C:\Users\LENOVO\Desktop\fundamentals1\bin\Debug\net6.0\fundamentals1.runtimeconfig.json
+C:\Users\LENOVO\Desktop\fundamentals1\bin\Debug\net6.0\fundamentals1.dll
+C:\Users\LENOVO\Desktop\fundamentals1\bin\Debug\net6.0\fundamentals1.pdb
+C:\Users\LENOVO\Desktop\fundamentals1\obj\Debug\net6.0\fundamentals1.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\fundamentals1\obj\Debug\net6.0\fundamentals1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\fundamentals1\obj\Debug\net6.0\fundamentals1.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\fundamentals1\obj\Debug\net6.0\fundamentals1.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\fundamentals1\obj\Debug\net6.0\fundamentals1.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\fundamentals1\obj\Debug\net6.0\fundamentals1.dll
+C:\Users\LENOVO\Desktop\fundamentals1\obj\Debug\net6.0\refint\fundamentals1.dll
+C:\Users\LENOVO\Desktop\fundamentals1\obj\Debug\net6.0\fundamentals1.pdb
+C:\Users\LENOVO\Desktop\fundamentals1\obj\Debug\net6.0\fundamentals1.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\fundamentals1\obj\Debug\net6.0\ref\fundamentals1.dll
