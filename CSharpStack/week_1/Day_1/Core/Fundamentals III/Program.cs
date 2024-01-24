@@ -1,174 +1,174 @@
-﻿// // Given a List of strings, iterate through the List and print out all the values. Bonus: How many different 
-// // ways can you find to print out
-// //  the contents of a List? (There are at least 3! Check Google!)
-// static void PrintList(List<string> MyList)
-// {
-//     foreach (var item in MyList)
-//     {
-//         System.Console.WriteLine(item);
-//     }
-// }
-// List<string> TestStringList = new List<string>() {"Harry", "Steve", "Carla", "Jeanne"};
-// PrintList(TestStringList);
+﻿// Given a List of strings, iterate through the List and print out all the values. Bonus: How many different 
+// ways can you find to print out
+//  the contents of a List? (There are at least 3! Check Google!)
+static void PrintList(List<string> MyList)
+{
+    foreach (var item in MyList)
+    {
+        System.Console.WriteLine(item);
+    }
+}
+List<string> TestStringList = new List<string>() {"Harry", "Steve", "Carla", "Jeanne"};
+PrintList(TestStringList);
 
 
 
-// // 2. Print Sum
-// // Given a List of integers, calculate and print the sum of the values
-// static void SumOfNumbers(List<int> IntList)
-// {
-//     int sum = 0 ;
-//     foreach (var item in IntList)
-//     {
-//         sum += item ;
-//     }
-//     System.Console.WriteLine(sum);
-// }
-// List<int> TestIntList = new List<int>() {2,7,12,9,3};
-// // You should get back 33 in this example
-// SumOfNumbers(TestIntList);
+// 2. Print Sum
+// Given a List of integers, calculate and print the sum of the values
+static void SumOfNumbers(List<int> IntList)
+{
+    int sum = 0 ;
+    foreach (var item in IntList)
+    {
+        sum += item ;
+    }
+    System.Console.WriteLine(sum);
+}
+List<int> TestIntList = new List<int>() {2,7,12,9,3};
+// You should get back 33 in this example
+SumOfNumbers(TestIntList);
 
 
-// // 3. Find Max
-// // Given a List of integers, find and return the largest value in the List.
+// 3. Find Max
+// Given a List of integers, find and return the largest value in the List.
 
-// static int FindMax(List<int> IntList)
-// {
-//     int max = IntList[0]; // Assume the first element is the maximum
+static int FindMax(List<int> IntList)
+{
+    int max = IntList[0]; // Assume the first element is the maximum
 
-//     // Iterate through the list starting from the second element
-//     for (int i = 1; i < IntList.Count; i++)
-//     {
-//         // Update max if the current element is greater
-//         if (IntList[i] > max)
-//         {
-//             max = IntList[i];
-//         }
-//     }
-//     System.Console.WriteLine(max);
-//     return max;
-// }
-// List<int> TestIntList2 = new List<int>() { -9, 12, 10, 3, 17, 5 };
-// // You should get back 17 in this example
-// FindMax(TestIntList2);
-
-
-// // 4. Square the Values
-// // Given a List of integers, return the List with all the values squared.
-
-// List<int> TestIntList3 = new List<int>() { 1, 2, 3, 4, 5 };
-// List<int> squaredList = SquareValues(TestIntList3);
-
-// Console.Write("Original List: ");
-// PrintList(TestIntList3);
-
-// Console.Write("Squared List: ");
-// PrintList(squaredList);
+    // Iterate through the list starting from the second element
+    for (int i = 1; i < IntList.Count; i++)
+    {
+        // Update max if the current element is greater
+        if (IntList[i] > max)
+        {
+            max = IntList[i];
+        }
+    }
+    System.Console.WriteLine(max);
+    return max;
+}
+List<int> TestIntList2 = new List<int>() { -9, 12, 10, 3, 17, 5 };
+// You should get back 17 in this example
+FindMax(TestIntList2);
 
 
-// static List<int> SquareValues(List<int> IntList)
-// {
-//     List<int> squaredList = new List<int>();
+// 4. Square the Values
+// Given a List of integers, return the List with all the values squared.
 
-//     foreach (int value in IntList)
-//     {
-//         // Square each value and add it to the new list
-//         squaredList.Add(value * value);
-//     }
+List<int> TestIntList3 = new List<int>() { 1, 2, 3, 4, 5 };
+List<int> squaredList = SquareValues(TestIntList3);
 
-//     return squaredList;
-// }
+Console.Write("Original List: ");
+PrintList(TestIntList3);
 
-// static void PrintList(List<int> list)
-// {
-//     // Helper method to print the contents of a list
-//     Console.Write("[");
-//     for (int i = 0; i < list.Count; i++)
-//     {
-//         Console.Write(list[i]);
-//         if (i < list.Count - 1)
-//         {
-//             Console.Write(", ");
-//         }
-//     }
-//     Console.WriteLine("]");
-// }
+Console.Write("Squared List: ");
+PrintList(squaredList);
 
 
-// // 5. Replace Negative Numbers with 0
-// // Given an array of integers, return the array with all values below 0 replaced with 0.
+static List<int> SquareValues(List<int> IntList)
+{
+    List<int> squaredList = new List<int>();
 
-// int[] TestIntArray = new int[] { -1, 2, 3, -4, 5 };
-// int[] resultArray = NonNegatives(TestIntArray);
+    foreach (int value in IntList)
+    {
+        // Square each value and add it to the new list
+        squaredList.Add(value * value);
+    }
 
-// Console.Write("Original Array: ");
-// PrintArray(TestIntArray);
+    return squaredList;
+}
 
-// Console.Write("Modified Array: ");
-// PrintArray(resultArray);
+static void PrintList(List<int> list)
+{
+    // Helper method to print the contents of a list
+    Console.Write("[");
+    for (int i = 0; i < list.Count; i++)
+    {
+        Console.Write(list[i]);
+        if (i < list.Count - 1)
+        {
+            Console.Write(", ");
+        }
+    }
+    Console.WriteLine("]");
+}
 
-// static int[] NonNegatives(int[] IntArray)
-// {
-//     int[] NonNegativesArray = new int[IntArray.Length];
 
-//     for (int i = 0; i < IntArray.Length; i++)
-//     {
-//         // Replace negative numbers with 0
-//         NonNegativesArray[i] = Math.Max(0, IntArray[i]);
-//     }
+// 5. Replace Negative Numbers with 0
+// Given an array of integers, return the array with all values below 0 replaced with 0.
 
-//     return NonNegativesArray;
-// }
+int[] TestIntArray = new int[] { -1, 2, 3, -4, 5 };
+int[] resultArray = NonNegatives(TestIntArray);
 
-// static void PrintArray(int[] array)
-// {
-//     // Helper method to print the contents of an array
-//     Console.Write("[");
-//     for (int i = 0; i < array.Length; i++)
-//     {
-//         Console.Write(array[i]);
-//         if (i < array.Length - 1)
-//         {
-//             Console.Write(", ");
-//         }
-//     }
-//     Console.WriteLine("]");
-// }
+Console.Write("Original Array: ");
+PrintArray(TestIntArray);
 
-// // 6. Print Dictionary
-// // Given a dictionary, print the contents of the said dictionary.
+Console.Write("Modified Array: ");
+PrintArray(resultArray);
 
-// static void PrintDictionary(Dictionary<string, string> MyDictionary)
-// {
-//     foreach (var kvp in MyDictionary)
-//     {
-//         Console.WriteLine($"{kvp.Key}: {kvp.Value}");
-//     }
-// }
-// Dictionary<string, string> TestDict = new Dictionary<string, string>();
-// TestDict.Add("HeroName", "Iron Man");
-// TestDict.Add("RealName", "Tony Stark");
-// TestDict.Add("Powers", "Money and intelligence");
-// PrintDictionary(TestDict);
+static int[] NonNegatives(int[] IntArray)
+{
+    int[] NonNegativesArray = new int[IntArray.Length];
 
-// // 7. Find Key
-// // Given a search term, return true or false whether the given term is a key in a dictionary. (Hint: figuring this one out may require some research!)
+    for (int i = 0; i < IntArray.Length; i++)
+    {
+        // Replace negative numbers with 0
+        NonNegativesArray[i] = Math.Max(0, IntArray[i]);
+    }
 
-// Dictionary<string, string> TestDict = new Dictionary<string, string>();
-// TestDict.Add("HeroName", "Iron Man");
-// TestDict.Add("RealName", "Tony Stark");
-// TestDict.Add("Powers", "Money and intelligence");
+    return NonNegativesArray;
+}
 
-// // This should print true
-// Console.WriteLine(FindKey(TestDict, "RealName"));
-// // This should print false
-// Console.WriteLine(FindKey(TestDict, "Name"));
+static void PrintArray(int[] array)
+{
+    // Helper method to print the contents of an array
+    Console.Write("[");
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i]);
+        if (i < array.Length - 1)
+        {
+            Console.Write(", ");
+        }
+    }
+    Console.WriteLine("]");
+}
 
-// static bool FindKey(Dictionary<string, string> MyDictionary, string SearchTerm)
-// {
-//     // Use the ContainsKey method to check if the search term exists as a key
-//     return MyDictionary.ContainsKey(SearchTerm);
-// }
+// 6. Print Dictionary
+// Given a dictionary, print the contents of the said dictionary.
+
+static void PrintDictionary(Dictionary<string, string> MyDictionary)
+{
+    foreach (var kvp in MyDictionary)
+    {
+        Console.WriteLine($"{kvp.Key}: {kvp.Value}");
+    }
+}
+Dictionary<string, string> TestDict = new Dictionary<string, string>();
+TestDict.Add("HeroName", "Iron Man");
+TestDict.Add("RealName", "Tony Stark");
+TestDict.Add("Powers", "Money and intelligence");
+PrintDictionary(TestDict);
+
+// 7. Find Key
+// Given a search term, return true or false whether the given term is a key in a dictionary. (Hint: figuring this one out may require some research!)
+
+Dictionary<string, string> TestDict = new Dictionary<string, string>();
+TestDict.Add("HeroName", "Iron Man");
+TestDict.Add("RealName", "Tony Stark");
+TestDict.Add("Powers", "Money and intelligence");
+
+// This should print true
+Console.WriteLine(FindKey(TestDict, "RealName"));
+// This should print false
+Console.WriteLine(FindKey(TestDict, "Name"));
+
+static bool FindKey(Dictionary<string, string> MyDictionary, string SearchTerm)
+{
+    // Use the ContainsKey method to check if the search term exists as a key
+    return MyDictionary.ContainsKey(SearchTerm);
+}
 
 
 // 8. Generate a Dictionary
