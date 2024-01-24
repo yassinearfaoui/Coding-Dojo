@@ -1,0 +1,15 @@
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_1\Practice\DebuggingPractice\bin\Debug\net6.0\DebuggingPractice.exe
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_1\Practice\DebuggingPractice\bin\Debug\net6.0\DebuggingPractice.deps.json
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_1\Practice\DebuggingPractice\bin\Debug\net6.0\DebuggingPractice.runtimeconfig.json
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_1\Practice\DebuggingPractice\bin\Debug\net6.0\DebuggingPractice.dll
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_1\Practice\DebuggingPractice\bin\Debug\net6.0\DebuggingPractice.pdb
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_1\Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_1\Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_1\Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_1\Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_1\Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_1\Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.dll
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_1\Practice\DebuggingPractice\obj\Debug\net6.0\refint\DebuggingPractice.dll
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_1\Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.pdb
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_1\Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_1\Practice\DebuggingPractice\obj\Debug\net6.0\ref\DebuggingPractice.dll
