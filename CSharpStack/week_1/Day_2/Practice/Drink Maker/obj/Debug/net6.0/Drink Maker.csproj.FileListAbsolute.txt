@@ -1,0 +1,15 @@
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Drink Maker\obj\Debug\net6.0\Drink Maker.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Drink Maker\obj\Debug\net6.0\Drink Maker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Drink Maker\obj\Debug\net6.0\Drink Maker.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Drink Maker\obj\Debug\net6.0\Drink Maker.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Drink Maker\obj\Debug\net6.0\Drink Maker.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Drink Maker\bin\Debug\net6.0\Drink Maker.exe
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Drink Maker\bin\Debug\net6.0\Drink Maker.deps.json
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Drink Maker\bin\Debug\net6.0\Drink Maker.runtimeconfig.json
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Drink Maker\bin\Debug\net6.0\Drink Maker.dll
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Drink Maker\bin\Debug\net6.0\Drink Maker.pdb
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Drink Maker\obj\Debug\net6.0\Drink Maker.dll
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Drink Maker\obj\Debug\net6.0\refint\Drink Maker.dll
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Drink Maker\obj\Debug\net6.0\Drink Maker.pdb
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Drink Maker\obj\Debug\net6.0\Drink Maker.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Drink Maker\obj\Debug\net6.0\ref\Drink Maker.dll
