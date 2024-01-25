@@ -1,0 +1,15 @@
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Ride Mader\bin\Debug\net6.0\Ride Mader.exe
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Ride Mader\bin\Debug\net6.0\Ride Mader.deps.json
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Ride Mader\bin\Debug\net6.0\Ride Mader.runtimeconfig.json
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Ride Mader\bin\Debug\net6.0\Ride Mader.dll
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Ride Mader\bin\Debug\net6.0\Ride Mader.pdb
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Ride Mader\obj\Debug\net6.0\Ride Mader.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Ride Mader\obj\Debug\net6.0\Ride Mader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Ride Mader\obj\Debug\net6.0\Ride Mader.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Ride Mader\obj\Debug\net6.0\Ride Mader.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Ride Mader\obj\Debug\net6.0\Ride Mader.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Ride Mader\obj\Debug\net6.0\Ride Mader.dll
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Ride Mader\obj\Debug\net6.0\refint\Ride Mader.dll
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Ride Mader\obj\Debug\net6.0\Ride Mader.pdb
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Ride Mader\obj\Debug\net6.0\Ride Mader.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\DEV\Coding-Dojo\CSharpStack\week_1\Day_2\Practice\Ride Mader\obj\Debug\net6.0\ref\Ride Mader.dll
