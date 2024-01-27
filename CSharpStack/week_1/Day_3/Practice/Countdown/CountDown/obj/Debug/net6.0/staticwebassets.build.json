@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "vXoSnF1O/2HG9D9HLx17nRJZKHQ4kYrWCwag1bwu2a4=",
+  "Source": "CountDown",
+  "BasePath": "_content/CountDown",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CountDown\\wwwroot",
+      "Source": "CountDown",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\DEV\\Coding-Dojo\\CSharpStack\\week_1\\Day_3\\Practice\\Countdown\\CountDown\\wwwroot\\",
+      "BasePath": "_content/CountDown",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\DEV\\Coding-Dojo\\CSharpStack\\week_1\\Day_3\\Practice\\Countdown\\CountDown\\wwwroot\\css\\style.css",
+      "SourceId": "CountDown",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\DEV\\Coding-Dojo\\CSharpStack\\week_1\\Day_3\\Practice\\Countdown\\CountDown\\wwwroot\\",
+      "BasePath": "_content/CountDown",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}

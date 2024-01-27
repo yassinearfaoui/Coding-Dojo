@@ -1,0 +1,23 @@
+h1{
+    color: red;
+}
+.flex{
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.div{
+    border: 3px black solid;
+    width: 200px;
+}
+
+p{
+    color :rgb(255, 8, 111);
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.remain{
+    margin: auto;
+    width: 500px;
+}

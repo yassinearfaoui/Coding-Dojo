@@ -1,0 +1,39 @@
+@{
+    // Get the current date and time
+    DateTime startTime = DateTime.Now;
+    DateTime endTime = new DateTime(2024, 4, 22, 18, 30, 0); // Example: December 31, 2023, 6:30 PM
+      TimeSpan timeDifference = endTime - startTime;
+
+    // Format the date and time using a custom format string
+  string formattedDateTime = startTime.ToString("MMM dd, yyyy hh:mm tt");
+  string formattedEndTime = endTime.ToString("MMM dd, yyyy hh:mm tt");
+    string formattedTimeDifference = $"{timeDifference.Days} days, {timeDifference.Hours} hours, {timeDifference.Minutes} minutes";
+}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="flex">
+        <div class="div">
+            <h1>Start Time</h1>
+            <p>@formattedDateTime</p>
+        </div>
+        <div class="div">
+            <h1> End Time</h1>
+              <p>@formattedEndTime</p>
+        </div>
+    </div>
+    <div class="remain">
+        <H1>Time remaing...</H1>
+        <p>@formattedTimeDifference</p>
+    </div>
+
+</body>
+
+</html>
