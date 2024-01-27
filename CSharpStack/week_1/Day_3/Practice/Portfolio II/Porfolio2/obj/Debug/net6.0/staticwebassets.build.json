@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "ETSmkWqeVHyAPRLANdVkJbDv/Ymox25nPFStN1bjv1M=",
+  "Source": "Porfolio2",
+  "BasePath": "_content/Porfolio2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Porfolio2\\wwwroot",
+      "Source": "Porfolio2",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\DEV\\Coding-Dojo\\CSharpStack\\week_1\\Day_3\\Practice\\Portfolio II\\Porfolio2\\wwwroot\\",
+      "BasePath": "_content/Porfolio2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\DEV\\Coding-Dojo\\CSharpStack\\week_1\\Day_3\\Practice\\Portfolio II\\Porfolio2\\wwwroot\\css\\style.css",
+      "SourceId": "Porfolio2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\DEV\\Coding-Dojo\\CSharpStack\\week_1\\Day_3\\Practice\\Portfolio II\\Porfolio2\\wwwroot\\",
+      "BasePath": "_content/Porfolio2",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}
