@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "YthAOJ5aTKye0S5WzwQhC26ALCuHERG9M4z+aj1yTuk=",
+  "Source": "DojoSurvey",
+  "BasePath": "_content/DojoSurvey",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DojoSurvey\\wwwroot",
+      "Source": "DojoSurvey",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\DEV\\Coding-Dojo\\CSharpStack\\week_1\\Day_3\\Core\\Dojo Survey\\DojoSurvey\\wwwroot\\",
+      "BasePath": "_content/DojoSurvey",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
